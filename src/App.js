@@ -14,7 +14,7 @@ const App = () => {
     <ThemeProvider theme={isDarkTheme ? darkTheme : lightTheme}>
       <>
         <GlobalStyles />
-        <Router>
+        <Router basename="/jobs">
           <Routes>
             <Route
               path="/"
